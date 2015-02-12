@@ -1,0 +1,9 @@
+I. Main Title
+  A. Subject
+  B. Another subject
+    1. Details
+    2. More detail
+      i. Sub-point
+      ii. Another sub-point
+        a. sub-sub point
+        b. another sub-sub point{0=>"I. Main Title\n", 1=>"  A. Subject\n", 2=>"  B. Another subject\n", 3=>"    1. Details\n", 4=>"    2. More detail\n", 5=>"      i. Sub-point\n", 6=>"      ii. Another sub-point\n", 7=>"        a. sub-sub point\n", 8=>"        b. another sub-sub point"}

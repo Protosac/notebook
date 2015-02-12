@@ -17,7 +17,8 @@ var balanceParens = function(string) {
     if (string[i] === '(' ) {
       parens.push(string[i]);
       
-      for (var n = 1; i < string.length; n++) {
+      var n = (string.length -1) - i;
+      for (n; n > 0; n--) {
         if (string[n] === ')' ) {
           return parens.pop;
         }
@@ -27,6 +28,40 @@ var balanceParens = function(string) {
   }
   if (parens.length > 0) {
     return "Unbalanced";
+  } else {
+    return "Balanced."
+  }
+
+};
+
+// MY REVISION
+
+var balanceParens = function(string) {
+  var parens = [];
+  var brackets = {
+      "(" = ")",
+      "[" = "]",
+      "{" = "}"
+  }
+
+  // Create a copy
+  for (var i = 0; i < string.length; i++) {
+    if (string[i] === '(' ) {
+      parens.push(string[i]);
+      
+      var n = (string.length -1) - i;
+      for (n; n > 0; n--) {
+        if (string[n] === ')' ) {
+          return parens.pop;
+        }
+      }
+    }
+    
+  }
+  if (parens.length > 0) {
+    return "Unbalanced";
+  } else {
+    return "Balanced."
   }
 
 };

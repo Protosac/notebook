@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Workshop Practice</title>
+  <script type="text/javascript" src="../js/angular.js"></script>
+  <script type="text/javascript" src="angular-k.js"></script>
+</head>
+<body ng-app='myApp'>
+<div ng-controller="AnimalsCtrl">
+    <ul ng-repeat="animal in animals | orderBy: 'name'">
+      <li>Vote for: {{ animal.name }} </li>
+    </ul>
+</div>
+</body>
+</html>
