@@ -45,10 +45,10 @@ def outline(doc)
     # Headings are all caps and short. Lines that are capitalized
     # are the start of a paragraph. Lines not capitalized are
     # part of previous data sentence, so append it.
-    if is_upper?(line) || words.length <= 5
+    if is_upper?(line) #|| words.length <= 5
       json["title#{i}"] = line
     else
-      json["data#{i}"] = line unless is_lower?(line[0])
+      json["data#{i}"] = line #unless is_lower?(line[0])
       if is_lower?(line[0]) 
         json.values.last.concat(line)
       end
