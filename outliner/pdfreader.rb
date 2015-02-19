@@ -4,6 +4,7 @@ require 'io/console'
 require 'json'
 require 'yaml'
 require 'pry'
+############### END REQUIRED ##################
 
 def pdf_to_text(pdf, file)
   File.open(file, 'w') do |f|
@@ -21,9 +22,9 @@ def is_upper?(string)
   string == string.upcase ? true : false
 end
 
-def create_json(obj)
+def create_json(obj, file = 'policy.json')
   data = JSON.generate(obj)
-  File.open('policy.json', 'w') { |d| d.write(data)}
+  File.open(file, 'w') { |d| d.write(data)}
 end
 
 # Outline the text document to create JSON object
