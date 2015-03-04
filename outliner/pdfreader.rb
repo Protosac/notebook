@@ -14,6 +14,24 @@ def pdf_to_text(pdf, file)
   end
 end
 
+def heading?(obj,string)
+  if /^[IVX+]+\./.match(string)
+    obj["heading#{i}"] = string
+  end
+end
+
+def sentence?(obj,string)
+  if /^[A-Z+]+\./.match(string)
+    obj["subheading#{i}"] = string
+  end
+end
+
+def word?(obj,string)
+  if /\b\w+\b/.match(string)
+    obj["phrase#{i}"] = string
+  end
+end
+
 def is_lower?(string)
   string == string.downcase ? true : false
 end
@@ -25,6 +43,10 @@ end
 def create_json(obj, file = 'policy.json')
   data = JSON.generate(obj)
   File.open(file, 'w') { |d| d.write(data)}
+end
+
+def store(obj,model,name)
+  name = model.new
 end
 
 # Outline the text document to create JSON object
@@ -39,21 +61,32 @@ def outline(doc)
     next if line.empty?
     next if line == ""
 
-    # Find the headings for each section by counting words
-    # and checking them.
-    words = line.split(" ")
+    # Check if it's a Heading
+    # if heading?(json,line)
+    #   next
+    # elsif sentence?(json,line)
+    #   next
+    # else 
+    #   json.values.last.concat(line)
+    # end
 
-    # Headings are all caps and short. Lines that are capitalized
-    # are the start of a paragraph. Lines not capitalized are
-    # part of previous data sentence, so append it.
-    if is_upper?(line) #|| words.length <= 5
-      json["title#{i}"] = line
-    else
-      json["data#{i}"] = line #unless is_lower?(line[0])
-      if is_lower?(line[0]) 
-        json.values.last.concat(line)
+    if line.upcase
+        json["title#{i}"] = line
+      else
+        json["data#{i}"] = line unless is_lower?(line[0])
+        if is_lower?(line[0]) 
+          json.values.last.concat(line)
+        end
       end
-    end
+      
+    # if line =~ /^[A-Z]+\./ 
+    #   json["title#{i}"] = line
+    # elsif line =~ /^[a-z1-9]+\./
+    #   json["data#{i}"] = line 
+    # else #line =~ /^[A-Z]+[\S\s]+[.?!]/ 
+    #   # binding.pry
+    #   json.values.last.concat(line)
+    # end
     i+= 1
   end
   
@@ -62,3 +95,11 @@ def outline(doc)
 end
 
 outline('file.txt')
+
+# I. I love steak!
+# A. with cheese
+# 1. Coca-cola too.
+
+# II. More headings
+
+# IIIV. And another
