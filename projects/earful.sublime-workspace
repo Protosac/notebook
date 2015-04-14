@@ -1,0 +1,579 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list-grou",
+				"list-group-item"
+			],
+			[
+				"hr",
+				"href"
+			],
+			[
+				"lfm",
+				"lfmkey"
+			],
+			[
+				"artist",
+				"artistmatches"
+			],
+			[
+				"lin",
+				"link"
+			],
+			[
+				"userFrom",
+				"userFormButton"
+			],
+			[
+				"db",
+				"dbRes"
+			],
+			[
+				"artil",
+				"article_title"
+			],
+			[
+				"art",
+				"article_tags"
+			],
+			[
+				"arti",
+				"article_title"
+			],
+			[
+				"articl",
+				"article_title"
+			],
+			[
+				"ar",
+				"article_tags"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/proto/code/earful/routes/index.js",
+			"settings":
+			{
+				"buffer_size": 1375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/proto/code/earful/app.js",
+			"settings":
+			{
+				"buffer_size": 1944,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/proto/code/earful/views/index.jade",
+			"settings":
+			{
+				"buffer_size": 244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/proto/code/node-login/app/server/views/login.jade",
+			"settings":
+			{
+				"buffer_size": 1071,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 359.0,
+		"selected_items":
+		[
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"syn",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synh",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 524.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/proto/code/earful",
+		"/home/proto/code/earful/bin",
+		"/home/proto/code/earful/views",
+		"/home/proto/code/earful/views/templates"
+	],
+	"file_history":
+	[
+		"/home/proto/code/node-login/app/server/views/layout.jade",
+		"/home/proto/code/earful/bin/www",
+		"/home/proto/code/earful/views/index.jade",
+		"/home/proto/code/earful/views/layout.jade",
+		"/home/proto/code/earful/views/results.jade",
+		"/home/proto/code/earful/views/spotify.jade",
+		"/home/proto/code/omdb/views/index.ejs",
+		"/home/proto/code/earful/routes/index.js",
+		"/home/proto/code/earful/views/ejs/results.ejs",
+		"/home/proto/code/earful/views/templates/scripts.jade",
+		"/home/proto/code/earful/views/ejs/index.ejs",
+		"/home/proto/code/earful/public/css/bootstrap.min.css",
+		"/home/proto/code/earful/public/css/style.css",
+		"/home/proto/code/earful/views/head.jade",
+		"/home/proto/code/earful/.gitignore",
+		"/home/proto/code/earful/views/index.ejs",
+		"/home/proto/code/earful/views/scripts.jade",
+		"/home/proto/code/omdb/app.js",
+		"/home/proto/code/earful/views/styles.js",
+		"/home/proto/code/earful/earful.sublime-project",
+		"/home/proto/code/earful/routes/lastfm.js",
+		"/home/proto/code/earful/views/error.ejs",
+		"/home/proto/code/earful/views/results.ejs",
+		"/home/proto/code/pitchforks/views/index.ejs",
+		"/home/proto/code/earful/views/error.jade",
+		"/home/proto/code/earful/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js",
+		"/home/proto/code/earful/node_modules/serve-favicon/node_modules/etag/index.js",
+		"/home/proto/code/earful/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/package.json",
+		"/home/proto/code/earful/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js",
+		"/home/proto/code/pitchforks/routes/handlers.js",
+		"/home/proto/code/pitchforks/routes/routes.js",
+		"/home/proto/code/earful/bin/app.js",
+		"/home/proto/code/pitchforks/server.js",
+		"/home/proto/code/earful/app.js",
+		"/home/proto/code/pitchforks/app.js",
+		"/home/proto/code/test/app.js",
+		"/home/proto/code/pubdub/app.js",
+		"/home/proto/code/earful/package.json",
+		"/home/proto/code/test/routes/index.js",
+		"/home/proto/code/test/bin/www",
+		"/home/proto/code/earful/server.ejs",
+		"/home/proto/code/pubdub/server.js",
+		"/usr/share/applications/defaults.list",
+		"/home/proto/code/friendlist/app.js",
+		"/home/proto/code/pitchforks/db.js",
+		"/home/proto/code/pitchforks/pitchforks1.sql",
+		"/home/proto/code/pitchforks/pitchforks.sql",
+		"/home/proto/code/pitchforks/pitchforks.dump",
+		"/home/proto/code/pitchforks/mapbox.csv",
+		"/home/proto/code/howto/app.js",
+		"/home/proto/code/howto/views/index.ejs",
+		"/home/proto/code/howto/views/users/show.ejs",
+		"/home/proto/code/howto/lib/routes.js",
+		"/home/proto/code/howto/server.js",
+		"/home/proto/code/howto/howto.md",
+		"/home/proto/code/howto/routes/routes.js",
+		"/home/proto/code/howto/package.json",
+		"/home/proto/code/pitchforks/application.js",
+		"/home/proto/code/howto/config/handlers.js",
+		"/home/proto/code/howto/config/routes.js",
+		"/home/proto/code/howto/index.html",
+		"/home/proto/code/howto/main.js",
+		"/home/proto/code/howto/style.css",
+		"/home/proto/code/howto/views/show.ejs",
+		"/home/proto/code/sendme/app.js",
+		"/home/proto/code/sendme/db.js",
+		"/home/proto/code/howto/db.js",
+		"/etc/mongod.conf",
+		"/home/proto/code/howto/index.ejs",
+		"/home/proto/Twine 2.0/rsrc/js/twine.js",
+		"/home/proto/code/pitchforks-fb/views/index.ejs",
+		"/home/proto/code/pubdub/index.html",
+		"/home/proto/code/sendme/views/posts/index.ejs",
+		"/home/proto/code/pubdub/views/index.html",
+		"/home/proto/code/pubdub/firebase.json",
+		"/home/proto/code/pubdub/routes/handlers.js",
+		"/home/proto/code/pubdub/routes/routes.js",
+		"/home/proto/code/pubdub/views/index.jade",
+		"/home/proto/code/pubdub/views/templates/head.jade",
+		"/home/proto/code/pubdub/views/templates/nav.jade",
+		"/home/proto/code/pubdub/public/css/navbar.css",
+		"/home/proto/code/pubdub/views/head.jade",
+		"/home/proto/code/pubdub/.gitignore",
+		"/home/proto/code/pubdub/views/layout.jade",
+		"/home/proto/code/pubdub/views/jade/head.jade",
+		"/home/proto/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/proto/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/proto/code/pubdub/config/db.js",
+		"/home/proto/code/krakenexp/controllers/index.js",
+		"/home/proto/code/krakenexp/models/index.js",
+		"/home/proto/code/pubdub/.editorconfig",
+		"/home/proto/code/pitchforks/.gitignore",
+		"/home/proto/code/pitchforks/views/protests/protest.ejs",
+		"/home/proto/code/pitchforks/views/protests/new.ejs",
+		"/home/proto/code/pitchforks/views/protests/edit.ejs",
+		"/home/proto/code/pitchforks/views/users/show.ejs",
+		"/home/proto/code/pitchforks/views/users/profile.ejs",
+		"/home/proto/code/pitchforks/views/users/edit.ejs",
+		"/home/proto/code/pitchforks/views/twitter.ejs",
+		"/home/proto/code/pitchforks/views/signup.ejs",
+		"/home/proto/code/pitchforks/views/results.ejs",
+		"/home/proto/code/pitchforks/views/about.ejs",
+		"/home/proto/code/pitchforks/views/show.ejs",
+		"/home/proto/code/pitchforks/public/css/navbar.css",
+		"/home/proto/code/pitchforks/views/login.ejs",
+		"/home/proto/code/pitchforks/handlers.js",
+		"/home/proto/code/pitchforks/routes.js",
+		"/home/proto/code/pitchforks/app/routes/publicRoutes.js",
+		"/home/proto/code/pitchforks/config/routes.js",
+		"/home/proto/code/pitchforks/config/application.js",
+		"/home/proto/code/pitchforks/config.js",
+		"/home/proto/code/pitchforks2/config/config.json",
+		"/home/proto/code/pitchforks2/models/index.js",
+		"/home/proto/code/pitchforks2/controllers/index.js",
+		"/home/proto/code/pitchforks2/server.js",
+		"/home/proto/code/pitchforks2/index.js",
+		"/home/proto/code/pitchforks2/public/js/app.js",
+		"/home/proto/code/sendme/views/posts/new.ejs",
+		"/home/proto/code/sendme/index.js",
+		"/home/proto/code/express-blog/db.js",
+		"/home/proto/code/blog/views/user/new.ejs",
+		"/home/proto/code/blog/views/user/show.ejs",
+		"/home/proto/code/blog/views/error.ejs",
+		"/home/proto/code/blog/views/index.ejs",
+		"/home/proto/code/blog/package.json",
+		"/home/proto/code/friendlist/db.js",
+		"/home/proto/code/kayslist/app.js",
+		"/home/proto/code/kayslist/views/blogs.ejs"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/proto/code/pitchforks/routes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pitchforksnav",
+			"gedit",
+			"userFormButton",
+			"userForm",
+			"search",
+			"a",
+			"</li>",
+			"<li>",
+			"ul",
+			"li",
+			"ul",
+			"e00000",
+			"exampleInputPassword2",
+			"exampleInputEmail2",
+			"exampleInputPassword2",
+			"exampleInputEmail2",
+			"protestData",
+			"DE0000",
+			"blue",
+			"red",
+			"publicRoutes",
+			"routes",
+			"entries",
+			"entry",
+			"person",
+			"people",
+			"blogs",
+			"author",
+			"url",
+			"blog_title",
+			"add",
+			"home",
+			"blogs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sublime_text"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/proto/code/earful/routes/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1375,
+								1375
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/home/proto/code/earful/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								975,
+								975
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/proto/code/earful/views/index.jade",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/proto/code/node-login/app/server/views/login.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								672,
+								672
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.455336866011,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "earful.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

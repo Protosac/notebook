@@ -6,6 +6,7 @@
 	<script src="js/custom.js"></script>
 	<script src="js/highcharts.js"></script>
 	<script src="js/exporting.js"></script>
+	<script src="js/exporting.js"></script>
 	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
 	<link rel="stylesheet" href="style/custom.css">
 	<title>Slick With JQuery</title>
@@ -17,6 +18,20 @@
 	<h1>My D3 Charts</h1>
 	<svg class="chart"></svg>
 </div>
+
+<div ng-controller="main">
+	Username: {{ username }}
+	<input type="text" ng-model="username">
+
+	<input type="text" ng-model="value" />
+  <span ng-class="{bold: isBold(), italic: isItalic(), underline: isUnderlined()}">
+	  Example Text
+  </span>
+</div>
+
+
+
+
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="js/d3.js"></script>
 </body>
