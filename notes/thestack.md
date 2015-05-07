@@ -1,6 +1,8 @@
 Linux Install
 =============
 
+Where possible, create a folder named `local` and install all apps to that folder. 
+
 Applications
 ------------
 * Nodejs,NPM/NVM
@@ -8,7 +10,7 @@ Applications
 * Ruby, Rubygems, RVM
 * Postgresql Dev
 * Python 2.7
-
+* Redis
 * Sublime Text 3
 * Chrome
 * Java 
@@ -16,9 +18,7 @@ Applications
 Configuration
 -------------
 
-SSH Keys
-Local User
-Oh My ZSH
+SSH Key Setup: `https://help.github.com/articles/generating-ssh-keys/`
 
 The Sindeo Stack
 ================
@@ -28,9 +28,6 @@ Topics
 * Django, Angular, etc
 * Deployment
 * Models
-
-### Middlewares
-These are the various frameworks and middlewares that bring the application together.
 
 #### Vagrant
 "Vagrant provides easy to configure, reproducible, and portable work environments..."
@@ -58,25 +55,14 @@ A modern error logging and aggregation platform.
 
 #### PostgreSQL
 
+Database. 
+
 #### Django
 
-Django is a web development framework. Works very similarly to Ruby on Rails. It uses the ORM for database management and the traditional MVC model. Read the documentation on it and the following tools:
+Django is a web development framework. Works very similarly to Ruby on Rails. It uses ORM for database management and something similar to the MVC model, but not quite. Read the documentation on it and the following tools:
 
-* django-suit
-* django-authtools
-* django-braces
-* django-compressor
-* django-positions
 * djangorestframework
-* djangorestframework-jwt
-* django-model-utils
-* django-filter
-* django-rest-swagger
-* django-suit-redactor
-* django-redis-cache
-* django-blog-zinnia
-* django-extensions
-* djrill
+* djrill (mandrill)
 
 #### Nginx
 
@@ -89,7 +75,7 @@ Redis is an open source, BSD licensed, advanced key-value cache and store. It is
 It works like a No SQL database.
 
 #### Salt
-http://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html
+* http://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html
 
 "The backbone of Salt is the remote execution engine, which creates a high-speed, secure and bi-directional communication net for groups of systems. On top of this communication system, Salt provides an extremely fast, flexible, and easy-to-use configuration management system called Salt States."
 
@@ -108,8 +94,41 @@ Accelerate sales performance. A tool for managing customer service and providing
 
 #### Zinnia
 
-An open-source weblog built on Django
+An open-source weblog built on Django.
 
 #### New Relic
 
 Software analytics.
+
+#### Running the Stack
+
+There are a ton of different apps running fairly independently throughout the app. This means different commands for different things and knowing when to run them. Every app isn't needed every time, but be careful about pulling updates - you may need to update packages from these various applications. 
+
+Redis and Postgres should be running in the background. Flush Redis if site features aren't working.
+
+Loansifter is required for rate_quote form. Run the command if you're using it.
+PYTHONPATH=../.. python loansifter_test.py
+
+
+Deployment Process:
+
+0. Fabfile: Command file for deployment.
+1. jenkins.py: install pip and python
+2. requirements/common.txt: Install requirements
+2. requirements/jenkins.txt: 
+3. static/: Clear Bower cache
+4. static/: Install Bower components (git)
+5. design/: Clear Bower cache
+6. design/: Install bower components
+7. sindeo_ci/design/dist/js: venv, collectstatic command (copy all static js/css/scss files)
+7. sindeo_ci/design/dist/bower_components: copy all static bower files
+7. python/zinnia: copy all image files
+8. migrations
+9. Run tests (including smoke tests)
+10. Run Karma and Phantomjs
+11. Fab beta deployment
+
+AWS
+
+1. Cloudfront CDN service. Move static files to CDN.
+2. Update settings to include static file location.

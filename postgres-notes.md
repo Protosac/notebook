@@ -1,4 +1,4 @@
-# PostgreSQL Commands
+# PostgreSQL Custom View
 `\pset format wrapped` :
 `\pset pager off` :
 `\pset linestyle unicode` : 
